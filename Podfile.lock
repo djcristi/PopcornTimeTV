@@ -54,7 +54,7 @@ DEPENDENCIES:
   - XCDYouTubeKit (~> 2.7.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - 1PasswordExtension
     - Alamofire
     - AlamofireImage
@@ -104,7 +104,7 @@ SPEC CHECKSUMS:
   Player: 7a2bcad3631034fa47d4b6fdedf7c4075fc236fe
   PopcornTorrent: 343ff0e04ba370764a9cf27c35685463f7428b90
   Protobuf: 0e94afe3b47cb11876eb6aee296638711a24bf75
-  Reachability: a1dac0017d14de3504a13723b00f2b21f1130aea
+  Reachability: 07e976fb63651163096e04b1528d4d29a4a212aa
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   SwiftyTimer: 02dd6cf10cbc71cbf67cec494f6e5eb782102543
   TvOSMoreButton: 41fab9ceec49f0806e822ed4c78ac0634e16ff4e
@@ -113,4 +113,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 39a7eb54c511fb5712b0af13a31c3f9ed2c5b609
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4

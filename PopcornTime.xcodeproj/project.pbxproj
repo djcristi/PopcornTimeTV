@@ -1994,23 +1994,19 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-resources.sh",
 				"${PODS_ROOT}/google-cast-sdk-no-bluetooth/GoogleCastSDK-ios-4.4.6_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
 				"${PODS_ROOT}/google-cast-sdk-no-bluetooth/GoogleCastSDK-ios-4.4.6_static/GoogleCast.framework/GoogleCastUIResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		32EA7C440C5E676C79CC8B43 /* [CP] Embed Pods Frameworks */ = {
@@ -2018,10 +2014,8 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/1PasswordExtension/OnePasswordExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage-iOS/AlamofireImage.framework",
@@ -2031,6 +2025,7 @@
 				"${BUILT_PRODUCTS_DIR}/MarqueeLabel-iOS/MarqueeLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/OBSlider/OBSlider.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper-iOS/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Player/Player.framework",
 				"${PODS_ROOT}/PopcornTorrent/Build/iOS/PopcornTorrent.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/Reachability-iOS/Reachability.framework",
@@ -2040,8 +2035,6 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-iOS/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OnePasswordExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
@@ -2052,6 +2045,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OBSlider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Player.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopcornTorrent.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
@@ -2062,7 +2056,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopcornTimeiOS/Pods-PopcornTimeiOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5B3ABEBD998E9EE7ACDF64F1 /* [CP] Embed Pods Frameworks */ = {
@@ -2070,10 +2064,8 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTimetvOS/Pods-PopcornTimetvOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PopcornTimetvOS/Pods-PopcornTimetvOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire-tvOS/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage-tvOS/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/FloatRatingView-tvOS/FloatRatingView.framework",
@@ -2090,8 +2082,6 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON-tvOS/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
@@ -2110,7 +2100,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTimetvOS/Pods-PopcornTimetvOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopcornTimetvOS/Pods-PopcornTimetvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		65345E90C3A7DA55FE016A81 /* [CP] Copy Pods Resources */ = {
@@ -2118,23 +2108,19 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS-resources.sh",
 				"${PODS_ROOT}/google-cast-sdk-no-bluetooth/GoogleCastSDK-ios-4.4.6_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
 				"${PODS_ROOT}/google-cast-sdk-no-bluetooth/GoogleCastSDK-ios-4.4.6_static/GoogleCast.framework/GoogleCastUIResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PopcornKit iOS/Pods-PopcornKit iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A08FB9E8B33B7A524FED53E0 /* [CP] Check Pods Manifest.lock */ = {
@@ -2957,7 +2943,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T96JUED2JC;
 				EXPANDED_CODE_SIGN_IDENTITY = "-";
 				EXPANDED_CODE_SIGN_IDENTITY_NAME = "-";
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2986,7 +2972,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T96JUED2JC;
 				EXPANDED_CODE_SIGN_IDENTITY = "-";
 				EXPANDED_CODE_SIGN_IDENTITY_NAME = "-";
 				INFOPLIST_FILE = "$(SRCROOT)/PopcornTime/Supporting Files/tvOS.plist";
@@ -3155,9 +3141,9 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_ENTITLEMENTS = TopShelf/TopShelf.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T96JUED2JC;
 				EXPANDED_CODE_SIGN_IDENTITY = "-";
 				EXPANDED_CODE_SIGN_IDENTITY_NAME = "-";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -3188,9 +3174,9 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_ENTITLEMENTS = TopShelf/TopShelf.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T96JUED2JC;
 				EXPANDED_CODE_SIGN_IDENTITY = "-";
 				EXPANDED_CODE_SIGN_IDENTITY_NAME = "-";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -3220,7 +3206,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 29PZ9RVB5Y;
+				DEVELOPMENT_TEAM = T96JUED2JC;
 				ENABLE_BITCODE = NO;
 				EXPANDED_CODE_SIGN_IDENTITY = "-";
 				EXPANDED_CODE_SIGN_IDENTITY_NAME = "-";
@@ -3257,7 +3243,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 29PZ9RVB5Y;
+				DEVELOPMENT_TEAM = T96JUED2JC;
 				ENABLE_BITCODE = NO;
 				EXPANDED_CODE_SIGN_IDENTITY = "-";
 				EXPANDED_CODE_SIGN_IDENTITY_NAME = "-";
