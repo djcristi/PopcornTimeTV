@@ -19,10 +19,11 @@ target 'PopcornTimeiOS' do
     platform :ios, '9.0'
     pods
     pod 'AlamofireNetworkActivityIndicator', '~> 2.3.0'
-    pod 'google-cast-sdk', '~> 4.3'
+    pod 'google-cast-sdk-no-bluetooth', '~> 4.4.4'
     pod 'OBSlider', '~> 1.1.1'
     pod '1PasswordExtension', '~> 1.8.4'
     pod 'MobileVLCKit', '~> 3.3.0'
+    pod "Player", "~> 0.13.2"
 end
 
 target 'PopcornTimetvOS' do
@@ -53,7 +54,7 @@ end
 target 'PopcornKit iOS' do
     platform :ios, '9.0'
     kitPods
-    pod 'google-cast-sdk', '~> 4.3'
+    pod 'google-cast-sdk-no-bluetooth', '~> 4.4.4'
 end
 
 post_install do |installer|
